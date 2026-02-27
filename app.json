@@ -1,7 +1,0 @@
-{
-    "name": "internal-web-utility",
-    "description": "Custom Node.js network service",
-    "repository": "https://github.com/bwyao/node-util-v1",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_free.png",
-    "keywords": ["network", "utility", "web-service"]
-}
