@@ -5,8 +5,8 @@ import nodeStatic from 'node-static';
 // 1. Initialize Bare and Static servers
 const bare = new Server('/bare/', '');
 // Removed the trailing slash from 'static'
-const serve = new nodeStatic.Server('./static'); 
-
+// To this (more reliable for Railway):
+const serve = new nodeStatic.Server('./static', { cache: 0 });
 const server = http.createServer();
 
 server.on('request', (request, response) => {
