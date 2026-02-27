@@ -1,2 +1,0 @@
-Honors Pre-Calc Homework 🤓
-
