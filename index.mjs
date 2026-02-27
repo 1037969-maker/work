@@ -18,4 +18,5 @@ server.on('upgrade', (req, socket, head) => {
 	socket.end();
 });
 
-server.listen(process.env.PORT || 8080);
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => console.log(`Running on port ${PORT}`));
